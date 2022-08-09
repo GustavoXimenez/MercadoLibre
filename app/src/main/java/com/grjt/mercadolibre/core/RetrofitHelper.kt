@@ -3,7 +3,7 @@ package com.grjt.mercadolibre.core
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class RetrofitHelper {
+object RetrofitHelper {
 
     fun getRetrofit(): Retrofit {
         return Retrofit.Builder()

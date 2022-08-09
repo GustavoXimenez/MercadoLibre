@@ -9,7 +9,7 @@ data class Results (
   @SerializedName("site_id"             ) var siteId             : String?               = null,
   @SerializedName("title"               ) var title              : String?               = null,
   @SerializedName("seller"              ) var seller             : Seller?               = Seller(),
-  @SerializedName("price"               ) var price              : Int?                  = null,
+  @SerializedName("price"               ) var price              : Double?                  = null,
   @SerializedName("prices"              ) var prices             : Prices?               = Prices(),
   @SerializedName("sale_price"          ) var salePrice          : String?               = null,
   @SerializedName("currency_id"         ) var currencyId         : String?               = null,
